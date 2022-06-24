@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, useContext} from "react";
+import { UserNameContext } from "../App";
 
-const UpdateProfileName = ({myusername, setUserName}) =>{
+const UpdateProfileName = () =>{
 
-
-    const [inputname, setinputname] = useState("");
+    //const [inputname, setinputname] = useState("");
+    const [inputname, setinputname] = useContext(UserNameContext);
 
     return(
         <div>
@@ -22,7 +23,7 @@ const UpdateProfileName = ({myusername, setUserName}) =>{
                 <button onClick={(e)=>
                     {
                         e.preventDefault();
-                        setUserName(inputname);
+                        setinputname(inputname);
                     }
                     } type="submit">Submit</button>
             </form>
