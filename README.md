@@ -1,5 +1,5 @@
 # About this project
-Very rough and dirty react project to learn context from Youtube tutorial, details below. 
+Rough project for learning purpose only, to learn React Story, from the Youtube tutorial(s), details below. 
 
-# Learn React Context Explained in 10 minutes - useContext
-https://youtu.be/hUhWtYXgg0I
+# React Storybook Crash Course
+https://youtu.be/FUKpWgRyPlU
